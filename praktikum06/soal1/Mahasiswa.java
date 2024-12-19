@@ -1,0 +1,37 @@
+package soal1;
+
+public class Mahasiswa {
+    int id;
+    String nama;
+    String nim;
+
+    public Mahasiswa(int id, String nama, String nim){
+        this.id = id;
+        this.nama = nama;
+        this.nim = nim;
+    }
+
+    public int getId(){
+        return id;
+    }
+
+    public void setId(int id){
+        this.id = id;
+    }
+
+    public String getNim(){
+        return nim;
+    }
+
+    public void setNim(String nim){
+        this.nim = nim;
+    }
+
+    public String getNama(){
+        return nama;
+    }
+
+    public void setNama(String nama){
+        this.nama = nama;
+    }
+}
